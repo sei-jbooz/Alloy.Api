@@ -1,0 +1,11 @@
+name: zz fork ref test
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  test:
+    uses: sei-jbooz/Crucible-Github-Actions/.github/workflows/docker-build.yaml@main
+    with:
+      imageName: scratch/test
+      push: "false"
