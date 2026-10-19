@@ -10,3 +10,6 @@ jobs:
     with:
       imageName: scratch/test
       push: "false"
+    secrets:
+      DOCKERHUB_USERNAME: x
+      DOCKERHUB_PASSWORD: x
