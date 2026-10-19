@@ -1,6 +1,7 @@
 name: zz fork ref test
 on:
   workflow_dispatch:
+  pull_request:
 permissions:
   contents: read
 jobs:
