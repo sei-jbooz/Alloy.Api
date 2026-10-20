@@ -22,4 +22,5 @@ jobs:
       languages: csharp
       paths-ignore: |
         Alloy.Api.Client/**
+        **/Migrations/**
       exclude-queries: cs/log-forging
