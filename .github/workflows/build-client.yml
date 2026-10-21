@@ -20,6 +20,7 @@ jobs:
       openapi-project: Alloy.Api
       description: NSwag generated client for Crucible's Alloy.Api
       unlist: true
+      dry-run: true
     secrets:
       NUGET_APIKEY: ${{ secrets.NUGET_APIKEY }}
       NUGET_APIKEY_UNLIST: ${{ secrets.NUGET_APIKEY_UNLIST }}
